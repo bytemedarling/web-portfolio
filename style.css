@@ -13,13 +13,20 @@ h2 {
 
 /* Header Styling */
 .header {
-    position: fixed;
     background-color: #3E2723;
     display: flex;
+    flex-direction: column;
     justify-content: flex-end;
     align-items: center;
     z-index: 1000;
     padding: 15px 20px;
+}
+
+/* ======== Logo ======== */
+.logo {
+    text-decoration: none;
+    max-width: 12.5rem;
+    height: auto;
 }
 
 /* Hamburger Menu */
