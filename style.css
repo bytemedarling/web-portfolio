@@ -55,6 +55,7 @@ h2 {
     padding: 15px 25px;
     box-shadow: 0 4px 12px rgba(62, 39, 35, 0.3);
     display: none;
+    align-items: right;
 }
 
 .main-nav ul {
