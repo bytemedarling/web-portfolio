@@ -31,6 +31,7 @@ h2 {
 .menu-button {
     font-size: 2rem;
     background: none;
+    align-items: right;
     border: none;
     color: #F4C9D6; /* Peony */
     cursor: pointer;
