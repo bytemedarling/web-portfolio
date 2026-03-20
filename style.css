@@ -6,3 +6,36 @@ body {
 p {
     color:#6A4A43;
 }
+
+/* Hamburger Menu */
+.menu-wrapper {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  margin: 0; 
+}
+
+.menu-button {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* NAV MENU (dropdown) */
+.main-nav {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  border-radius: 10px;
+  z-index: 20;
+}
+
+.main-nav.open {
+  display: flex;
+}
