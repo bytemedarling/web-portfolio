@@ -17,7 +17,6 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
     z-index: 1000;
 }
 
@@ -26,6 +25,7 @@ h2 {
     text-decoration: none;
     max-width: 12.5rem;
     height: auto;
+    align-items: left;
 }
 
 /* Hamburger Menu */
@@ -33,6 +33,7 @@ h2 {
     font-size: 2rem;
     background: none;
     border: none;
+    align-items: right;
     color: #F4C9D6; /* Peony */
     cursor: pointer;
     z-index: 1100;
