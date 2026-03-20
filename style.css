@@ -10,17 +10,13 @@ p {
 /* Hamburger Menu */
 .menu-wrapper {
   position: absolute;
-  top: 10px;
-  right: 0px;
   margin: 0; 
 }
-
 .menu-button {
-  font-size: 2rem;
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.menu-button.open {
+  transform: rotate(90deg);
 }
 
 /* NAV MENU (dropdown) */
@@ -28,9 +24,8 @@ p {
   display: none;
   flex-direction: column;
   position: absolute;
-  top: 60px;
-  right: 20px;
-  background: rgba(255, 255, 255, 0.9);
+  background: #3E2723;
+  color: #F4C9D6;
   padding: 15px;
   border-radius: 10px;
   z-index: 20;
@@ -38,4 +33,4 @@ p {
 
 .main-nav.open {
   display: flex;
-}
+} 
