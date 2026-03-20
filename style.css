@@ -79,7 +79,7 @@ h2 {
 }
 
 /* Footer Styling */
-footer {
+.footer p {
     background-color: #3E2723;
     color: #FAF7F3;
     border: 1px solid #D8C7A1;
