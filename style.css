@@ -77,3 +77,11 @@ h2 {
 .main-nav a:hover {
     color: #F4C9D6; /* Peony */
 }
+
+/* Footer Styling */
+.footer {
+    background-color: #3E2723;
+    color: #F4C9D6;
+    text-align: center;
+    padding: 15px 0;
+}
