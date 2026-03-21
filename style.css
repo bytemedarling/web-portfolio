@@ -25,6 +25,8 @@ main, section {
 
 .hero {
     justify-content: center;
+    text-align: center;
+    margin: 40px auto;
 }
 
 /* Header Styling */
