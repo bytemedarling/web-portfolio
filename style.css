@@ -1,15 +1,17 @@
 body {
     background: #F4EFE6;
-    font-family: "Bungee", Old Standard TT, serif;
     padding-bottom: 40px;
 }
 
 p {
     color:#6A4A43;
+    font-family: "Old Standard TT", serif;
 }
 
-h2 {
+h1,h2, h3 {
     color: #3E2723;
+    font-family: "Bungee", sans-serif;
+
 }
 
 /* Header Styling */
@@ -91,7 +93,6 @@ footer {
     position: fixed;
     background-color: #3E2723;
     width: 100vw;
-    bottom: ;
     border: 1px solid #D8C7A1;
 
 }
