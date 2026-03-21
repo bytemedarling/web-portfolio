@@ -99,6 +99,33 @@ main, section {
     color: #F4C9D6; /* Peony */
 }
 
+/* Project Cards Styling */
+.project-list {
+    text-align: center;
+}
+
+.project-card {
+    background-color: #F7DDE7;
+    border: 1px solid #D8C7A1;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    box-shadow: 0 4px 12px rgba(62, 39, 35, 0.2);
+}
+
+.project-card {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.project-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
 /* Contact Form Styling */
 .contact-form {
     background-color: #F4EFE6;
@@ -152,6 +179,7 @@ main, section {
 .contact-form button:hover {
   transform: scale(1.03);
   box-shadow: 0 0 10px #F4C9D6;
+  background: linear-gradient(135deg, #3E2723 5%, #F4C9D6 40%, #F4EFE6 100%);
 }
 
 /* Footer Styling */
