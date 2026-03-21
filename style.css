@@ -39,7 +39,7 @@ h1,h2, h3 {
 /* Hamburger Menu */
 .menu-button {
     position: absolute;
-    top: 40%;
+    top: 30%;
     right: 20px;
     font-size: 2rem;
     background: none;
