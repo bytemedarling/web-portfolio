@@ -21,13 +21,10 @@ h1,h2, h3 {
 
 main, section {
     padding: 0 40px;
-    max-width: fit-content;
-    margin: 0 auto;
 }
 
 .hero {
-    text-align: center;
-    margin: 40px 0;
+    justify-content: center;
 }
 
 /* Header Styling */
