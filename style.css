@@ -89,6 +89,15 @@ h1,h2, h3 {
     color: #F4C9D6; /* Peony */
 }
 
+/* Contact Form Styling */
+.contact-form {
+    background-color: #F4EFE6;
+    border: 1px solid #D8C7A1;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px auto;
+}
 /* Footer Styling */
 .footer p {
     color: #FAF7F3;
