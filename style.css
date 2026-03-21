@@ -98,6 +98,25 @@ h1,h2, h3 {
     max-width: 500px;
     margin: 20px auto;
 }
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #6A4A43;
+    font-weight: bold;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #D8C7A1;
+    border-radius: 5px;
+}
+.contact-form button {
+    background-color: #F4C9D6;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s ease;
 /* Footer Styling */
 .footer p {
     color: #FAF7F3;
