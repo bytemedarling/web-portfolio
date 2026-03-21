@@ -164,7 +164,7 @@ main, section {
     border-radius: 5px;
 }
 .contact-form button {
-    background-color: linear-gradient(135deg, #3E2723 5%, #F4C9D6 40%, #F4EFE6 100%);
+    background-color: #E8A8BA;
     color: #3E2723;
     cursor: pointer;
     text-align: center;
@@ -180,6 +180,7 @@ main, section {
 .contact-form button:hover {
   transform: scale(1.03);
   box-shadow: 0 0 10px #F4C9D6;
+  background: linear-gradient(135deg, #3E2723 5%, #F4C9D6 40%, #F4EFE6 100%);
 }
 
 /* Footer Styling */
