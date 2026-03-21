@@ -89,7 +89,6 @@ h1,h2, h3 {
     text-align: center;
 }
 footer {
-    position: fixed;
     background-color: #3E2723;
     width: 100vw;
     border: 1px solid #D8C7A1;
