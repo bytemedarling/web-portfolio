@@ -18,6 +18,7 @@ h2 {
     justify-content: center;
     z-index: 1000;
     padding: 10px 20px;
+    position: relative;
 }
 
 /* ======== Logo ======== */
@@ -29,6 +30,9 @@ h2 {
 
 /* Hamburger Menu */
 .menu-button {
+    position: absolute;
+    top: 50%;
+    right: 20px;
     font-size: 2rem;
     background: none;
     border: none;
