@@ -105,6 +105,11 @@ h1,h2, h3 {
     align-items: center;
 }
 
+.contact-form h2 {
+    text-align: center;
+    background-color: #F7DDE7;
+}
+
 .contact-form label {
     display: block;
     margin-bottom: 5px;
