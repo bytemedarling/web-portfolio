@@ -117,6 +117,8 @@ h1,h2, h3 {
     cursor: pointer;
     text-align: center;
     transition: 0.3s ease;
+}
+
 /* Footer Styling */
 .footer p {
     color: #FAF7F3;
@@ -126,5 +128,7 @@ footer {
     background-color: #3E2723;
     width: 100%;
     border: 1px solid #D8C7A1;
-    padding: 1rem;
+    border-radius: 10px;
+    padding: 15px 0;
+    margin-top: 40px;
 }
