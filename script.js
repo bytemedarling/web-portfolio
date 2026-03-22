@@ -10,8 +10,8 @@ menuButton.addEventListener('click', () => {
     menuButton.setAttribute('aria-expanded', !isOpen);
 });
 
-/* Project Card Effeect */
-const cards = document.querySelectorAll('.project-card');
+/* Project Card Effect */
+const projectCards = document.querySelectorAll('.project-card');
 
 const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
@@ -21,4 +21,4 @@ const observer = new IntersectionObserver(entries => {
   });
 });
 
-cards.forEach(card => observer.observe(card));
+projectCards.forEach(card => observer.observe(card));
