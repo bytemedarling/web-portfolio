@@ -29,6 +29,10 @@ main, section {
     margin: 40px auto;
 }
 
+.section {
+    margin-bottom: 80px;
+}
+
 /* Header Styling */
 .header {
     background-color: #3E2723;
@@ -114,6 +118,7 @@ main, section {
     width: 100%;
     max-width: 250px;
     border-radius: 10px;
+    background: transparent;
 }
 
 @media (min-width: 800px) {
