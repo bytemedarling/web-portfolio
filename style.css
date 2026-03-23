@@ -29,12 +29,15 @@ main, section {
     margin: 40px auto;
 }
 
-#hero, #projects, #contact {
+#hero, #projects {
     margin-bottom: 140px;
 }
 #about {
     margin-top: 140px;
     margin-bottom: 140px;
+}
+#contact {
+    margin-top: 140px;
 }
 
 /* Header Styling */
@@ -44,7 +47,6 @@ main, section {
     justify-content: center;
     z-index: 1000;
     padding: 10px 20px;
-    position: relative;
 }
 header {
     position: sticky;
