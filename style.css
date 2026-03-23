@@ -99,6 +99,42 @@ main, section {
     color: #F4C9D6; /* Peony */
 }
 
+/* About Me Section Styling */
+.about-section {
+    display: flex;
+    flex-wrap: column;
+    align-items: center;
+    gap: 20px;
+    margin: 40px auto;
+}
+.about-text {
+    max-width: 600px;
+}
+.about-photo img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+@media (min-width: 800px) {
+    .about-section {
+        flex-direction: row; /* side-by-side */
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .about-text, .about-photo {
+        flex: 1;
+    }
+
+    .about-photo img {
+        width: 100%;
+        max-width: 300px;
+        border-radius: 10px;
+    }
+}
+
+
 /* Project Cards Styling */
 .project-list {
     text-align: center;
@@ -143,7 +179,8 @@ main, section {
 .project-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(62, 39, 35, 0.3);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: opacity 1.2s cubic-bezier(0.25, 0.8, 0.25, 1),
+            transform 1.2s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 /* Mobile Styling For Project Card */
@@ -231,4 +268,5 @@ footer {
 .top-button {
     color: #FAF7F3;
     text-align: center;
+    justify-content: center;
 }
