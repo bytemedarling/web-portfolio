@@ -223,6 +223,29 @@ header {
     }
 }
 
+/* Tech Stack Styling */
+.tech-stack {
+    background-color: #F7DDE7;
+    border: 1px solid #D8C7A1;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px auto;
+    box-shadow: 0 4px 12px rgba(62, 39, 35, 0.2);
+}
+.tech-stack h2 {
+    text-align: left;
+}
+.tech-stack ul {
+    list-style: none;
+    padding: 0;
+}
+.tech-stack li {
+    margin-bottom: 10px;
+    color: #6A4A43;
+    font-weight: bold;
+}
+
 /* Contact Form Styling */
 .contact-form {
     background-color: #F4EFE6;
