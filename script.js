@@ -20,6 +20,7 @@ const observer = new IntersectionObserver(entries => {
     }
   });
   threshhold: 0.4
+  rootMargin: "0px 0px -150px 0px"
 });
 
 projectCards.forEach(card => observer.observe(card));
