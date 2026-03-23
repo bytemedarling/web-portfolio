@@ -224,17 +224,26 @@ header {
 }
 
 /* Tech Stack Styling */
-.tech-stack h2 {
-    text-align: left;
+#techstack {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 20px;
 }
-.tech-stack ul {
-    list-style: none;
-    padding: 0;
+
+#techstack h2 {
+    font-family: "Bungee", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #3E2723;
 }
-.tech-stack li {
-    color: #6A4A43;
-    font-weight: bold;
+
+.tech-list p {
     font-family: "Old Standard TT", serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #3E2723;
+    margin-bottom: 12px;
 }
 
 /* Contact Form Styling */
