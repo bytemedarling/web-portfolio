@@ -103,12 +103,12 @@ main, section {
 .about-section {
     display: flex;
     flex-wrap: column;
-    align-items: center;
     gap: 20px;
     margin: 40px auto;
 }
 .about-text {
     max-width: 600px;
+    align-items: left;
 }
 .about-photo img {
     width: 100%;
