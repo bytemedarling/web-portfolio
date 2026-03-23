@@ -46,6 +46,10 @@ main, section {
     padding: 10px 20px;
     position: relative;
 }
+header {
+    position: sticky;
+    top: 0;
+}
 
 /* ======== Logo ======== */
 .logo {
@@ -311,7 +315,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 }
 
 .top-button {
