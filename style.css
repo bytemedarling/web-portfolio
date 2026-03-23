@@ -123,8 +123,8 @@ main, section {
 }
 .about-photo img {
     width: 100%;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 350px;
+    max-height: 350px;
     border-radius: 50%;
     background-color: #F7DDE7;
     box-shadow: 0 0 12px #F4C9D6;
