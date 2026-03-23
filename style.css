@@ -34,6 +34,7 @@ main, section {
 }
 #about {
     margin-top: 140px;
+    margin-bottom: 140px;
 }
 
 /* Header Styling */
