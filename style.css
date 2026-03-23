@@ -29,12 +29,8 @@ main, section {
     margin: 40px auto;
 }
 
-.section {
-    margin-bottom: 80px;
-}
-
-#hero {
-    margin-bottom: 100px;
+#hero, #about, #projects, #contact {
+    margin-bottom: 160px;
 }
 
 /* Header Styling */
