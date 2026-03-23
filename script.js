@@ -19,6 +19,7 @@ const observer = new IntersectionObserver(entries => {
       entry.target.classList.add('visible');
     }
   });
+  threshhold: 0.4
 });
 
 projectCards.forEach(card => observer.observe(card));
