@@ -128,7 +128,7 @@ main, section {
     border-radius: 50%;
     background-color: #F7DDE7;
     box-shadow: 0 0 12px #F4C9D6;
-    object-fit: cover;
+    object-fit: contain;
     animation: fadeScaleIn 1.2s ease-out forwards;
     align-items: right;
 }
