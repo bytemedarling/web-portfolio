@@ -118,6 +118,9 @@ main, section {
     max-width: 600px;
     align-items: left;
 }
+.about-photo {
+    order: -1;
+}
 .about-photo img {
     width: 100%;
     max-width: 250px;
