@@ -118,7 +118,8 @@ main, section {
     width: 100%;
     max-width: 250px;
     border-radius: 10px;
-    background: transparent;
+    background-color: #F7DDE7;
+    padding: 10px;
 }
 
 @media (min-width: 800px) {
@@ -138,7 +139,6 @@ main, section {
         border-radius: 10px;
     }
 }
-
 
 /* Project Cards Styling */
 .project-list {
