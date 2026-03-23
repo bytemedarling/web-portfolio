@@ -139,6 +139,12 @@ main, section {
     display: block;
 }
 
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(62, 39, 35, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 /* Mobile Styling For Project Card */
 @media (min-width: 800px) {
     .projects {
