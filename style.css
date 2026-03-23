@@ -310,6 +310,6 @@ footer {
 .top-button {
     color: #FAF7F3;
     text-align: center;
-    justify-content: center;
+    justify-content: space-between;
     font-family: "Old Standard TT", serif;
 }
