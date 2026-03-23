@@ -11,7 +11,26 @@ menuButton.addEventListener('click', () => {
 });
 
 /* Project Card Effect */
-const projectCards = document.querySelectorAll('.project-card');
+
+const cards = document.querySelectorAll('.project-card');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, {
+  threshold: 0.2
+});
+
+cards.forEach((card, index) => {
+  card.style.transitionDelay = `${index * 0.3}s`; // stagger
+  observer.observe(card); // observe each card individually
+});
+
+
+/* const projectCards = document.querySelectorAll('.project-card');
 
 const observer = new IntersectionObserver(
   entries => {
@@ -27,4 +46,4 @@ const observer = new IntersectionObserver(
   }
 );
 
-projectCards.forEach(card => observer.observe(card));
+projectCards.forEach(card => observer.observe(card)); */

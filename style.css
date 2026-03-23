@@ -129,7 +129,9 @@ main, section {
     background-color: #F7DDE7;
     box-shadow: 0 0 12px #F4C9D6;
     padding: 12px;
-    object-fit: contain;
+    object-fit: cover;
+    animation: fadeScaleIn 1.2s ease-out forwards;
+    align-items: right;
 }
 
 @keyframes fadeScaleIn {
@@ -141,10 +143,6 @@ main, section {
     opacity: 1;
     transform: scale(1);
   }
-}
-
-.about-photo img {
-  animation: fadeScaleIn 1.2s ease-out forwards;
 }
 
 @media (min-width: 800px) {
@@ -162,6 +160,10 @@ main, section {
         width: 100%;
         max-width: 300px;
         border-radius: 50%;
+    }
+
+    .about-photo {
+        order: 0;
     }
 }
 
@@ -324,4 +326,5 @@ footer {
     color: #FAF7F3;
     text-align: center;
     justify-content: center;
+    font-family: "Old Standard TT", serif;
 }
