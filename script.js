@@ -21,29 +21,11 @@ const observer = new IntersectionObserver((entries) => {
     }
   });
 }, {
-  threshold: 0.2
+  threshold: 0.1, // lower threshold so desktop triggers properly
+  rootMargin: "0px 0px -10% 0px" // helps trigger slightly before fully visible
 });
 
 cards.forEach((card, index) => {
-  card.style.transitionDelay = `${index * 0.3}s`; // stagger
-  observer.observe(card); // observe each card individually
+  card.style.transitionDelay = `${index * 0.3}s`;
+  observer.observe(card);
 });
-
-
-/* const projectCards = document.querySelectorAll('.project-card');
-
-const observer = new IntersectionObserver(
-  entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-      }
-    });
-  },
-  {
-    threshold: 0.2,
-    rootMargin: "0px 0px -50px 0px" 
-  }
-);
-
-projectCards.forEach(card => observer.observe(card)); */
