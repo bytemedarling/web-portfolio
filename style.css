@@ -122,8 +122,10 @@ main, section {
     width: 100%;
     max-width: 250px;
     max-height: 250px;
-    border-radius: 10px;
+    border-radius: 50%;
     background-color: #F7DDE7;
+    border: 2px solid #D8C7A1;
+    box-shadow: 0 4px 12px rgba(62, 39, 35, 0.2);
     padding: 12px;
     object-fit: contain;
 }
