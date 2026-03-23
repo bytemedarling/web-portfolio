@@ -11,6 +11,8 @@ menuButton.addEventListener('click', () => {
 });
 
 /* Project Card Effect */
+const projectCards = document.querySelectorAll('.project-card');
+
 const observer = new IntersectionObserver(
   entries => {
     entries.forEach(entry => {
@@ -20,6 +22,9 @@ const observer = new IntersectionObserver(
     });
   },
   {
-    threshold: 0.4,
+    threshold: 0.2,
+    rootMargin: "0px 0px -50px 0px" 
   }
 );
+
+projectCards.forEach(card => observer.observe(card));
