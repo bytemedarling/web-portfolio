@@ -11,16 +11,16 @@ menuButton.addEventListener('click', () => {
 });
 
 /* Project Card Effect */
-const projectCards = document.querySelectorAll('.project-card');
-
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
-    }
-  });
-  threshhold: 0.4
-  rootMargin: "0px 0px -150px 0px"
-});
-
-projectCards.forEach(card => observer.observe(card));
+const observer = new IntersectionObserver(
+  entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  },
+  {
+    threshold: 0.4,
+    rootMargin: "0px 0px -150px 0px"
+  }
+);
