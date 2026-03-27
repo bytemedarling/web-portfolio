@@ -49,10 +49,6 @@ main, section {
     justify-content: center;
     z-index: 1000;
     padding: 10px 20px;
-    position: sticky;
-    top: 0;
-    left: 0;
-    width: 100%;
 }
 
 /* ======== Logo ======== */
