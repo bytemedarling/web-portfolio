@@ -176,6 +176,10 @@ header {
         order: 0;
     }
 }
+/* Tech Stack Styling */
+.tech-stack {
+    margin-bottom: 40px;
+}
 
 /* Project Cards Styling */
 .project-list {
@@ -228,9 +232,6 @@ header {
         max-width: 300px;
     }
 }
-
-/* Tech Stack Styling */
-
 
 /* Contact Form Styling */
 .contact-form {
