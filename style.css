@@ -119,7 +119,7 @@ header {
 .about-section {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 80px;
     margin: 40px auto;
 }
 .about-text {
