@@ -182,6 +182,8 @@ header {
 /* Tech Stack Styling */
 .tech-stack {
     margin-bottom: 40px;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 /* Project Cards Styling */
