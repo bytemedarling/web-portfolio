@@ -21,7 +21,7 @@ h1,h2, h3 {
 
 }
 
-main, section {
+main {
     padding: 0 40px;
 }
 
@@ -120,8 +120,8 @@ header {
     display: flex;
     flex-direction: column;
     gap: 80px;
-    margin: 40px auto;
-}
+    max-width: 1100px;
+    margin: 0 auto;}
 .about-text {
     max-width: 600px;
     align-items: left;
@@ -302,8 +302,8 @@ header {
     justify-content: center;
     align-items: flex-start;
     gap: 1rem;
-    margin: 3rem auto 0;
-}
+    max-width: 1100px;
+    margin: 0 auto;}
 
 @media (max-width: 800px) {
     .contact-wrapper {
