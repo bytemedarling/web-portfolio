@@ -131,7 +131,6 @@ header {
 }
 .about-photo {
     order: -1;
-    margin-left: 40px;
 }
 .about-photo img {
     width: 100%;
