@@ -247,6 +247,7 @@ header {
 
 .contact-info {
     flex: 1;
+    margin-left: 40px;
 }
 
 .contact-form form {
