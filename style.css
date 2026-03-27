@@ -31,7 +31,7 @@ main, section {
     margin: 40px auto;
 }
 
-#hero, #projects {
+#hero {
     margin-bottom: 140px;
 }
 #about {
