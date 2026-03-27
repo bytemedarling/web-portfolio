@@ -121,9 +121,10 @@ header {
     flex-direction: column;
     gap: 80px;
     max-width: 1100px;
-    margin: 0 auto;}
+    margin: 0 auto;
+}
 .about-text {
-    max-width: 600px;
+    max-width: 500px;
     align-items: left;
 }
 .about-text h2 {
