@@ -298,7 +298,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 2.5rem;
+    gap: 1.5rem;
     margin: 3rem auto 0;
 }
 
