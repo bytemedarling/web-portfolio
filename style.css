@@ -126,6 +126,9 @@ header {
     max-width: 600px;
     align-items: left;
 }
+.about-text h2 {
+    font-size: 2rem;
+}
 .about-photo {
     order: -1;
 }
@@ -177,6 +180,9 @@ header {
 /* Project Cards Styling */
 .project-list {
     text-align: center;
+}
+.project-list h2 {
+    font-size: 2rem;
 }
 
 .project-card {
