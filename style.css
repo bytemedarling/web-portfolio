@@ -184,7 +184,7 @@ header {
     margin-bottom: 0;
     margin-top: 0;
     margin-right: 0;
-    margin-left: 80px;
+    margin-left: 100px;
     max-width: 500px;
 }
 
@@ -192,6 +192,7 @@ header {
 .project-list {
     text-align: center;
     font-size: 2rem;
+    margin-top: 40px;
 }
 
 .project-card {
