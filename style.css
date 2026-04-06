@@ -182,6 +182,7 @@ header {
 /* Tech Stack Styling */
 .tech-stack {
     margin-bottom: 40px;
+    margin-left: 80px;
     max-width: 500px;
     margin: 0;
 }
