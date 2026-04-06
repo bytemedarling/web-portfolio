@@ -38,8 +38,11 @@ main {
     margin-top: 140px;
     margin-bottom: 140px;
 }
-#contact {
+#projects {
     margin-top: 140px;
+}
+#contact {
+    margin-top: 80px;
 }
 
 /* Header Styling */
@@ -192,7 +195,6 @@ header {
 .project-list {
     text-align: center;
     font-size: 2rem;
-    margin-top: 40px;
 }
 
 .project-card {
