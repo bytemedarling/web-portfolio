@@ -248,7 +248,7 @@ header {
 }
 
 /* Contact List Styling */
-.contact-list ul {
+.contact-list li {
     list-style: none;
 }
 
